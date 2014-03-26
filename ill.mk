@@ -6,7 +6,7 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/illusion/config/common.mk)
+$(call inherit-product, vendor/illusion/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9300/full_i9300.mk)
